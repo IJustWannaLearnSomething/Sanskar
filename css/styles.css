@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -55,6 +59,7 @@ hr {
   position: absolute;
   right: 21.875rem;
   top: 12.5rem;
+  animation: bounce 3s ease infinite;
 }
 
 
@@ -62,10 +67,12 @@ hr {
   position: absolute;
   left: 18.75rem;
   bottom: 21.75rem;
+  animation: bounce 3s ease infinite;
 }
 
 .mountain {
   margin: 1.875rem auto 0;
+  width: 50%;
 }
 
 
@@ -151,4 +158,14 @@ hr {
 .copyright-info {
   margin-bottom: 0;
   color: #EAF6F6;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
 }
