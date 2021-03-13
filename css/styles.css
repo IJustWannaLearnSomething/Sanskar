@@ -13,66 +13,71 @@ h1 {
   margin: 9.375rem auto 0;
   font-family: 'Pacifico', cursive;
   font-size: 5.25rem;
-  color: #66BFBF;
+  color: #161d6f;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #161d6f;
   font-weight: normal;
   line-height: 2;
 }
 
 h3 {
-  color: #11999E;
+  color: #98ded9;
 }
 
 
 a {
-  color: #11999E;
+  color: #98ded9;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
   color: #40514E;
   font-family: 'Merriweather', serif;
+  line-height: 2;
 }
 
 hr {
   border-style: dotted none none none;
   border-width: 0.625rem;
   width: 5%;
-  color: #EAF6F6;
+  color: #f6f6f6;
 }
 
 
 
 
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #f6f6f6;
   position: relative;
-  padding-top: 6.25rem;
+  padding-top: 0.625rem;
+  border-radius: 0 0 5% 5%;
 }
 
 .top-cloud {
   position: absolute;
-  right: 21.875rem;
-  top: 12.5rem;
+  right: 10rem;
+  top: 6.25rem;
   animation: bounce 3s ease infinite;
 }
 
 
 .bottom-cloud {
   position: absolute;
-  left: 18.75rem;
-  bottom: 21.75rem;
+  left: 10rem;
+  top: 6.25rem;
   animation: bounce 3s ease infinite;
 }
 
-.mountain {
-  margin: 1.875rem auto 0;
-  width: 50%;
+.gif {
+  margin: 0 auto 0;
 }
 
 
@@ -106,24 +111,20 @@ hr {
 
 
 .contact-me {
+  width: 50%;
   margin: 6.25rem auto;
-  line-height: 2;
+
 }
 
 
 .btn {
   font-size: 1.25rem;
   margin: 3.125rem auto;
-  background: #11999E;
-  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
-  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
-  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
-  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
-  background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+  background: #98ded9;
   -webkit-border-radius: 0.625rem;;
   -moz-border-radius: 0.625rem;;
   border-radius: 0.625rem;
-  color: #FFFFFF;
+  color: #161d6f;
   padding: 0.625rem 2.5rem;
   display: inline-block;
   cursor: pointer;
@@ -131,12 +132,8 @@ hr {
 }
 
 .btn:hover {
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
-  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  background: #c7ffd8;;
+  color: #161d6f;
   -webkit-border-radius: 0.625rem;;
   -moz-border-radius: 0.625rem;;
   border-radius: 0.625rem;
@@ -146,7 +143,8 @@ hr {
 .bottom-container {
   line-height: 2;
   padding: 3.125rem;
-  background-color: #66BFBF;
+  background-color: #c7ffd8;
+  border-radius: 15% 15% 0 0;
 }
 
 .footer-link {
@@ -157,7 +155,7 @@ hr {
 
 .copyright-info {
   margin-bottom: 0;
-  color: #EAF6F6;
+  color: #161d6f;
 }
 
 @keyframes bounce {
