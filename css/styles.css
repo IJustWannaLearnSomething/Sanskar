@@ -62,16 +62,16 @@ hr {
 }
 
 .top-cloud {
-  max-width: 50%;                            //Image never goes bigger than container and is a bit smaller now
-  height: auto;                              //Image will maintain its aspect ratio when scaled down
+  max-width: 50%;                            /*Image never goes bigger than container and is a bit smaller now*/
+  height: auto;                              /*Image will maintain its aspect ratio when scaled down*/
   margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
 
 
 .bottom-cloud {
-  max-width: 50%;                            //Image never goes bigger than container and is a bit smaller now
-  height: auto;                              //Image will maintain its aspect ratio when scaled down
+  max-width: 50%;                            /*Image never goes bigger than container and is a bit smaller now*/
+  height: auto;                              /*Image will maintain its aspect ratio when scaled down*/
   margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
