@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-  margin: 9.375rem auto 0;
+  margin: 0 auto 0;
   font-family: 'Pacifico', cursive;
   font-size: 5.25rem;
   color: #161d6f;
@@ -62,12 +62,16 @@ hr {
 }
 
 .top-cloud {
+  max-width: 50%;                            //Image never goes bigger than container and is a bit smaller now
+  height: auto;                              //Image will maintain its aspect ratio when scaled down
   margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
 
 
 .bottom-cloud {
+  max-width: 50%;                            //Image never goes bigger than container and is a bit smaller now
+  height: auto;                              //Image will maintain its aspect ratio when scaled down
   margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
