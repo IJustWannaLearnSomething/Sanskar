@@ -65,6 +65,7 @@ hr {
   max-width: 10%;                            /*Image never goes bigger than container and is a bit smaller now*/
   height: auto;                              /*Image will maintain its aspect ratio when scaled down*/
   margin: 0 auto;
+  margin-top: 1.5rem;
   animation: bounce 3s ease infinite;
 }
 
