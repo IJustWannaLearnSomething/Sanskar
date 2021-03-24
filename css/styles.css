@@ -62,17 +62,13 @@ hr {
 }
 
 .top-cloud {
-  position: absolute;
-  right: 10rem;
-  top: 6.25rem;
+  margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
 
 
 .bottom-cloud {
-  position: absolute;
-  left: 10rem;
-  top: 6.25rem;
+  margin: 0 auto;
   animation: bounce 3s ease infinite;
 }
 
