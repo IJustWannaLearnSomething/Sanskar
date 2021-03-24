@@ -78,6 +78,8 @@ hr {
 }
 
 .gif {
+  max-width: 100%;
+  height: auto;
   margin: 0 auto 0;
 }
 
@@ -99,13 +101,15 @@ hr {
 }
 
 .html-img, .js-img {
-  width: 25%;
+  max-width: 25%;
+  height: auto;
   float: left;
   margin-right: 1.875rem;
 }
 
 .css-img {
-  width: 25%;
+  max-width: 25%;
+  height: auto;
   float: right;
   margin-left: 1.875rem;
 }
